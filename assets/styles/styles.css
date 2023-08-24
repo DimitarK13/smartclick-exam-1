@@ -164,3 +164,26 @@ footer {
 .hero__content-buttons p {
   max-width: 25ch;
 }
+
+/* CARDS */
+
+.cards {
+  margin-bottom: 2.5rem;
+}
+
+.cards,
+.cards__column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.56rem;
+}
+
+.card__image {
+  margin-bottom: 1.625rem;
+}
+
+.card__content-heading {
+  font-size: var(--fs-600);
+  font-weight: 500;
+  margin-bottom: 0.375rem;
+}
