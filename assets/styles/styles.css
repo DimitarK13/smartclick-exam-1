@@ -199,3 +199,43 @@ footer {
 .closing-cta__button {
   margin-top: 1.875rem;
 }
+
+/* FOOTER */
+
+.footer__content {
+  margin-bottom: 1.875rem;
+}
+
+.footer__content-description {
+  margin-bottom: 1.875rem;
+}
+
+.footer__content-description-logo {
+  margin-bottom: 1.625rem;
+}
+
+.footer__content-description-button {
+  display: inline-block;
+  margin-top: 1.25rem;
+}
+
+.footer__content-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__content-links-column ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer__content-links-column ul > * {
+  font-weight: 300;
+}
+
+.footer__copyright {
+  padding: 1.75rem;
+  border-top: 1px solid var(--clr-neutral-100);
+  text-align: center;
+}
