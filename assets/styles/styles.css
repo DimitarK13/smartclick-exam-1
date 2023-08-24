@@ -124,6 +124,7 @@ footer {
   cursor: pointer;
   display: inline-block;
   padding: 15px 25px;
+  width: max-content;
   background-color: var(--clr-primary-400);
   color: var(--clr-neutral-100);
 }
@@ -131,4 +132,35 @@ footer {
 .btn:hover,
 .btn:focus {
   background-color: var(--clr-primary-300);
+}
+
+/* HERO */
+
+.hero {
+  margin-block: 1.875rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.hero__content-header {
+  font-size: var(--fs-800);
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+}
+
+.hero__content-paragraph {
+  font-size: var(--fs-500);
+}
+
+.hero__content-buttons {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.hero__content-buttons p {
+  max-width: 25ch;
 }
