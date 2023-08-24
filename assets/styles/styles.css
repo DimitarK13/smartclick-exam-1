@@ -264,23 +264,7 @@ footer {
 
 /* RESPONSIVE */
 
-@media (min-width: 50em) {
-  .padding-block {
-    padding-block: 5rem;
-  }
-
-  footer {
-    padding-top: 3.75rem;
-  }
-
-  .hide-s {
-    display: block;
-  }
-
-  .hide-l {
-    display: none;
-  }
-
+@media (max-width: 60em) {
   .nav__toggle-button {
     cursor: pointer;
     display: block;
@@ -310,6 +294,24 @@ footer {
 
   .nav__primary-list[aria-expanded='true'] {
     transform: translateY(0);
+  }
+}
+
+@media (min-width: 60em) {
+  .padding-block {
+    padding-block: 5rem;
+  }
+
+  footer {
+    padding-top: 3.75rem;
+  }
+
+  .hide-s {
+    display: block;
+  }
+
+  .hide-l {
+    display: none;
   }
 
   .hero {
