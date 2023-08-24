@@ -16,7 +16,7 @@
     <script defer src="assets/scripts/index.js"></script>
   </head>
   <body>
-    <nav>
+    <nav class="container">
       <img src="assets/images/logo.png" alt="" />
 
       <button>
@@ -29,16 +29,19 @@
         <li><a href="#">Pricing</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Help</a></li>
-        <li><a href="#">Book a Meeting</a></li>
+        <li><a class="btn" href="#">Book a Meeting</a></li>
       </ul>
 
-      <a href="#">Book a Meeting</a>
+      <a class="btn" href="#">Book a Meeting</a>
     </nav>
+
     <main>
-      <section>
+      <section class="container" aria-label="Hero">
         <div>
           <div>
-            <h1>Design better sites with Tweakful.</h1>
+            <header>
+              <h1>Design better sites with Tweakful.</h1>
+            </header>
             <p>
               And the description of hero section is follow up message after the
               punch of a great headline. So, make it short, simple, descriptive
@@ -46,14 +49,15 @@
             </p>
 
             <div>
-              <a href="#">Book a Meeting</a>
+              <a class="btn" href="#">Book a Meeting</a>
               <p>Here you can put secondary action statement & CTA</p>
             </div>
           </div>
           <img src="assets/images/image-hero.png" alt="" />
         </div>
       </section>
-      <section>
+
+      <section class="container" aria-label="Benefits">
         <div>
           <div>
             <div>
@@ -121,45 +125,54 @@
           </div>
         </div>
       </section>
-      <section>
-        <h2>The Is Closing Headline To Make A Impact For Call To Action</h2>
-        <p>
-          Nowadays, it isn’t uncommon to see lenders rapidly adopting a digital
-          lending strategy to streamline the lending process nowadays, it isn’t
-          uncommon to see lenders rapidly
-        </p>
-        <a href="#">Book a Meeting</a>
+
+      <section class="background-primary" aria-label="Closing Headline">
+        <div class="container padding-block">
+          <header>
+            <h2>The Is Closing Headline To Make A Impact For Call To Action</h2>
+          </header>
+          <p>
+            Nowadays, it isn’t uncommon to see lenders rapidly adopting a
+            digital lending strategy to streamline the lending process nowadays,
+            it isn’t uncommon to see lenders rapidly
+          </p>
+          <a class="btn" href="#">Book a Meeting</a>
+        </div>
       </section>
     </main>
-    <footer>
-      <div>
-        <div>
-          <img src="assets/images/logo-white.png" alt="" />
-          <p>
-            Tweakful is HubSpot Theme Based On Engagement Design Framework,
-            designed & developed by Openthrive.
-          </p>
-          <a href="#">Learn More</a>
-        </div>
+
+    <footer class="background-secondary">
+      <div class="container">
         <div>
           <div>
-            <a href="#">Career</a>
-            <a href="#"> Contact</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Services</a>
-            <a href="#">GDPR</a>
-            <a href="#">FAQs</a>
+            <img src="assets/images/logo-white.png" alt="" />
+            <p>
+              Tweakful is HubSpot Theme Based On Engagement Design Framework,
+              designed & developed by Openthrive.
+            </p>
+            <a href="#">Learn More</a>
           </div>
           <div>
-            <a href="#">Blog</a>
-            <a href="#">Capabilities</a>
-            <a href="#">Resources</a>
-            <a href="#">Partnership Integration</a>
+            <div>
+              <a href="#">Career</a>
+              <a href="#"> Contact</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Services</a>
+              <a href="#">GDPR</a>
+              <a href="#">FAQs</a>
+            </div>
+            <div>
+              <a href="#">Blog</a>
+              <a href="#">Capabilities</a>
+              <a href="#">Resources</a>
+              <a href="#">Partnership Integration</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <p>&copy; 2015-2020 Openthrive. All right reserved.</p>
+
+        <div>
+          <p>&copy; 2015-2020 Openthrive. All right reserved.</p>
+        </div>
       </div>
     </footer>
   </body>
